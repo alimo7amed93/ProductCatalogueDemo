@@ -1,0 +1,6 @@
+TURSO_AUTH_TOKEN=""
+TURSO_DATABASE_URL=""
+
+# API configuration
+API_USER=
+API_PASS=
