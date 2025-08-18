@@ -1,4 +1,4 @@
-# 💬 Chat with your Product Catalogue Demo using NextJs & MCP Server
+# 💬 Chat with your Product Catalogue -TMF-620 Compliant- Demo using NextJs & MCP Server
 
 This project demonstrates how to **talk to your product catalogue** using natural language — ask questions, make updates, and perform complex actions, all through a conversational interface.  
 
