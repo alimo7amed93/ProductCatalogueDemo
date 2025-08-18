@@ -33,9 +33,8 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
 
 ---
 
-## 🚀 Demo  
-
-🎥 ![](./Demo.mp4)  
+## 🎥 Demo  
+[![Watch the demo on YouTube](https://img.youtube.com/vi/tIWHlRqjNes/0.jpg)](https://www.youtube.com/watch?v=tIWHlRqjNes) 
 
 ---
 
@@ -45,13 +44,22 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
 - **What is the cheapest bundle do we have?**
 - **Add CPE Basic instead to this bundle and change it's price to 100$**
 
-## Run NextJs
+---
+## Run
 
-## Run MCP server (Python)
+### NextJs
 
-## claude_desktop_config.json
+```bash
+npm run dev
+```
 
-''' JSON
+### MCP server (Python)
+```bash
+fastmcp run .\server.py
+```
+### claude_desktop_config.json
+
+```json
 {
     "mcpServers": {
       "product-catalogue-mcp": {
@@ -60,7 +68,4 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
       }
     }
 }
-
-
-
-
+```
