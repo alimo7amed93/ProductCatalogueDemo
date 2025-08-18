@@ -35,7 +35,7 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
 
 ## 🚀 Demo  
 
-🎥 [Watch the demo video](./Demo.mp4)  
+🎥 ![](./Demo.mp4)  
 
 ---
 
@@ -50,7 +50,8 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
 ## Run MCP server (Python)
 
 ## claude_desktop_config.json
-'''
+
+''' JSON
 {
     "mcpServers": {
       "product-catalogue-mcp": {
@@ -59,6 +60,7 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
       }
     }
 }
-'''
+
+
 
 
