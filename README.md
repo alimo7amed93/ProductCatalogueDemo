@@ -1,4 +1,4 @@
-# 🗣️ Chat with your Product Catalogue Demo using NextJs & MCP Server
+# 💬 Chat with your Product Catalogue Demo using NextJs & MCP Server
 
 This project demonstrates how to **talk to your product catalogue** using natural language — ask questions, make updates, and perform complex actions, all through a conversational interface.  
 
@@ -44,5 +44,21 @@ Built on **TMF-620 Product Catalogue Specification**, this demo ties together a 
 - **Based on our catalogue what broadband products do we have and what are their prices?**
 - **What is the cheapest bundle do we have?**
 - **Add CPE Basic instead to this bundle and change it's price to 100$**
+
+## Run NextJs
+
+## Run MCP server (Python)
+
+## claude_desktop_config.json
+'''
+{
+    "mcpServers": {
+      "product-catalogue-mcp": {
+        "command": "fastmcp",
+        "args": ["run", "{{Path}}\\server.py"]
+      }
+    }
+}
+'''
 
 
